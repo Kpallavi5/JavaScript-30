@@ -7,15 +7,15 @@ function isEven(num) {
     }
 }
 
-// let x = 10;
-// let result = isEven(x);
-// if (result == true) {
-//     console.log("Even");
+let x = 10;
+let result = isEven(x);
+if (result == true) {
+    console.log("Even");
 
-// }
-// else {
-//     console.log("Odd");
-// }
+}
+else {
+    console.log("Odd");
+}
 
 for (let i = 1; i <= 20; i++) {
     let result = isEven(i);
